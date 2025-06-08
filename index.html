@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dariana Hernández Reyes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8fb;
+      color: #1a1a1a;
+      margin: 0;
+      display: flex;
+    }
+    aside {
+      width: 250px;
+      background-color: #dce6f2;
+      padding: 20px;
+      position: fixed;
+      height: 100vh;
+      overflow-y: auto;
+    }
+    main {
+      margin-left: 250px;
+      width: calc(100% - 250px);
+    }
+    header {
+  background-color: #1a2e47;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+header img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+    nav {
+      background-color: #3e5f88;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: #1a2e47;
+    }
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 5px solid #3e5f88;
+      max-width: 900px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    section h2, article h3 {
+      color: #1a2e47;
+      margin-top: 0;
+    }
+    aside h3 {
+      color: #1a2e47;
+    }
+    aside ul {
+      list-style: none;
+      padding-left: 10px;
+    }
+    aside li, aside a {
+      color: #1a2e47;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: block;
+      font-weight: 500;
+    }
+    footer {
+      background-color: #1a2e47;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .social a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.4em;
+    }
+    img.formal {
+      width: 200px;
+      display: block;
+      margin: 10px auto;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .conoceme-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.conoceme-contenido .texto {
+  flex: 1;
+  min-width: 250px;
+}
+img.casual {
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+  </style>
+</head>
+<body>
+  <aside>
+    <h3>Idiomas</h3>
+    <ul>
+      <li><i class="fas fa-language"></i> Tének</li>
+      <li><i class="fas fa-language"></i> Español</li>
+    </ul>
+    <h3>Enlaces de Interés</h3>
+    <ul>
+      <li><a href="#experiencia">💼 Proyectos</a></li>
+      <li><a href="#contacto">📞 Contacto</a></li>
+      <li><a href="https://github.com/" target="_blank">🗃️ GitHub</a></li>
+      <li><a href="https://wa.me/" target="_blank">📱 WhatsApp</a></li>
+    </ul>
+  </aside>
+
+  <main>
+   <header>
+  <img src="img/Foto formal.jpg" alt="Foto de perfil">
+  <div>
+    <h1>Dariana Hernández Reyes</h1>
+    <p>Lic. en Informática Administrativa</p>
+  </div>
+</header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Conóceme</a></li>
+          <li><a href="acerca.html">Acerca de mí</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+          <li><a href="datos.html">Datos Personales</a></li>
+          <li><a href="estudios.html">Estudios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="valores.html">Principios y Valores</a></li>
+          <li><a href="habilidades.html">Habilidades</a></li>
+          <li><a href="mision-vision.html">Misión y Visión</a></li>
+        </ul>
+      </nav>
+<section id="conoceme">
+  <h2>Conóceme</h2>
+  <div class="conoceme-contenido">
+    <div class="texto">
+      <p>¡Hola! Soy Dariana Hernández Reyes, estudiante de la Universidad Intercultural de San Luis Potosí, orgullosamente originaria de Tzepacab Segunda Sección Tzapikte. Soy una joven apasionada por la tecnología, la cultura y la música.</p>
+      <p>Desde pequeña he estado involucrada en actividades culturales y escolares que me han ayudado a descubrir mis talentos y desarrollar nuevas habilidades. He superado desafíos como la tartamudez, lo cual me impulsó a fortalecer mi comunicación y seguridad al hablar en público.</p>
+      <p>Me encanta aprender cosas nuevas, especialmente si puedo combinarlas con mi identidad como mujer tének. Creo firmemente en que la tecnología puede ser una herramienta poderosa para preservar nuestras raíces y fomentar el desarrollo de nuestras comunidades.</p>
+      <p>Hoy en día, además de estudiar Informática Administrativa, participo en proyectos que promueven el uso de la lengua tének, la creatividad artística y el trabajo colaborativo. Mi objetivo es ser una profesional íntegra que contribuya tanto al ámbito tecnológico como al cultural.</p>
+    </div>
+    <img src="img/Foto casual.jpg" alt="Foto casual" class="casual">
+  </div>
+</section>
+
+
+    <section id="acerca">
+      <h2>Acerca de mí</h2>
+      <p>☕ Me gusta mucho cantar. Siempre ganaba en concursos y participaba en eventos. Es uno de mis pasatiempos más valiosos.</p>
+      <p>✍️ También me apasiona tocar en la banda de guerra, la flauta y bordar en punto de cruz. Además, disfruto aprender computación, lo cual me motivó a estudiar Informática Administrativa.</p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <article>
+        <h3>🎓 Taller de robótica educativa con enfoque STEAM</h3>
+        <p>Impartido a niños de educación básica usando kits LEGO Mindstorms. Fomenté el pensamiento crítico, la creatividad y el trabajo en equipo.</p>
+      </article>
+      <article>
+        <h3>🎶 Taller de creación de canciones en tének y náhuatl</h3>
+        <p>Proyecto cultural para preservar las lenguas indígenas a través de la música. Promovemos la identidad cultural con niños y jóvenes.</p>
+      </article>
+    </section>
+
+    <section id="datos">
+      <h2>Datos Personales</h2>
+      <p><strong>Nombre:</strong> Dariana Hernández Reyes</p>
+      <p><strong>Nacimiento:</strong> 4 de mayo de 2003, Ciudad Valles, S.L.P.</p>
+      <p><strong>Comunidad:</strong> Tzepacab Segunda Sección Tzapikte, Tancanhuitz, S.L.P.</p>
+      <p><strong>Idiomas:</strong> Tének y español</p>
+      <p><strong>Misión:</strong> Innovar con tecnología y preservar la cultura tének</p>
+      <p><strong>Visión:</strong> Ser un referente cultural y tecnológico</p>
+    </section>
+
+    <section id="estudios">
+      <h2>Estudios</h2>
+      <ul>
+        <li><strong>2003-2006:</strong> Educación Inicial - Moel Witz</li>
+        <li><strong>2006-2009:</strong> Preescolar - K’icha Witz</li>
+        <li><strong>2009-2015:</strong> Primaria - Francisco González Bocanegra</li>
+        <li><strong>2015-2018:</strong> Secundaria - Mariano Arista, San Antonio, S.L.P.</li>
+        <li><strong>2018-2021:</strong> Bachillerato - CBTa 160 (Técnica en Ofimática)</li>
+        <li><strong>2021-2025:</strong> Universidad - UICSLP, Tancanhuitz</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p><i class="fas fa-phone"></i> 4831285559</p>
+        <p><i class="fas fa-envelope"></i> darianah.0405@gmail.com</p>
+        <p><i class="fas fa-id-card"></i> Identificación: 123456</p>
+        <p><i class="fas fa-map-marker-alt"></i> C Benito Juárez 177, Loc Tzapikte 79800, Tancanhuitz, S.L.P.</p>
+      </section>
+  
+      <section id="valores">
+        <h2>Principios y Valores</h2>
+        <p>Disciplina, perseverancia, respeto por mis raíces y compromiso con el aprendizaje continuo. Creo en el trabajo en equipo y en el esfuerzo personal para lograr los objetivos.</p>
+      </section>
+  
+      <section id="habilidades">
+        <h2>Habilidades, Talentos y Competencias</h2>
+        <ul>
+          <li>Superación de la tartamudez y facilidad de comunicación</li>
+          <li>Canto e interpretación artística</li>
+          <li>Conocimientos de ofimática y robótica educativa STEAM</li>
+          <li>Liderazgo y trabajo colaborativo</li>
+          <li>Preservación y difusión de la lengua tének</li>
+        </ul>
+      </section>
+  
+      <section id="mision-vision">
+        <h2>Misión y Visión</h2>
+        <p><strong>Misión:</strong> Ser una profesional comprometida con la innovación tecnológica y la preservación cultural.</p>
+        <p><strong>Visión:</strong> Convertirme en un referente en el ámbito tecnológico y cultural, integrando tecnología y educación.</p>
+      </section>
+  
+      <footer>
+        <p>© 2025 Dariana Hernández Reyes</p>
+        <div class="social">
+          <a href="https://www.facebook.com/dary.hernandez.3762" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/da.ri9056?igsh=ZGUzMzM3NWJiOQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:darianah.0405@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+  </html>
+  
+
